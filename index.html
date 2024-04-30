@@ -4,43 +4,71 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>07_Chatchanan(Lek/เล็ก)</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.google.com/specimen/Roboto"
+     rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <header>
       <a href="#" class="logo-holder">
-        <div class="logo-text">COLMAR ACADEMY</div>
+        <div class="logo">
+          <a href="#" class="logo";>
+          <img src="./assets/ic-logo.svg" alt="Logo"/>
+        </div>
+        <div class="logo-text-1">COLMAR</div>
+        <div class="logo-text-2">ACADEMY</div>
       </a>
       <nav>
         <ul id="menu">
           <li>
-            <a href="menu-oncampus">On campus</a>
+            <a href="#menu-oncampus">On campus</a>
+            <a href="#menu-oncampus" class="on-campus" onClick="on-campus-menu()";></a>
           </li>
           <li>
-            <a href="menu-online">Online</a>
+            <a href="#menu-online">Online</a>
+            <a href="#menu-online" class="online" onClick="online-menu()";></a>
           </li>
           <li>
-            <a href="menu-orcompanies">or companies</a>
+            <a href="#menu-orcompanies">or companies</a>
           </li>
           <li>
-            <a href="menu-signin" class="button">Sign in</a>
+            <a href="#menu-signin">Sign in</a>
+            <a href="#menu-signin" class="signin" onClick="signin()";></a>
           </li>
         </ul>
+        <!--
+        <a href="#menu-oncampus" class="on-campus" onClick="on-campus-menu()";>
+          <img src="./assets/ic-on-campus.svg" alt="On campus"/>
+        </a>
+        <a href="#menu-online" class="online" onClick="online-menu()";>
+          <img src="./assets/ic-online.svg" alt="Online"/>
+        </a>
+        <a href="#menu-orcompanies" class="or-companies" onClick="orcompanies-menu()";>
+          <img src="./assets/ic-logo.svg" alt="Or companies"/>
+        </a>
+        <a href="#menu-signin" class="signin" onClick="signin()";>
+          <img src="./assets/ic-login.svg" alt="Signin"/>
+        </a>
+      -->
       </nav>
     </header>
     <main>
       <section class="hero">
         <div class="hero-first">
           <h1>Learn something new everyday</h1>
-          <p>Learn something new everyday....</p>
+          <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.
+            </p>
           <div class="call-to-action">
-            <a href="./assests/" target="_blank" class="button"
-              >Start header
+            <a href="./assets/thesis.mp4" target="_blank" class="button"
+              >Start here
             </a>
           </div>
         </div>
         <div class="hero-second">
-          <img src="./assests/banner.jpg" alt="banner text" width="60%" />
+          <img 
+           src="./assets/banner.jpg" 
+           alt="banner text"
+           width="60%" />
         </div>
       </section>
     </main>
